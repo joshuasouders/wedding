@@ -1,0 +1,1 @@
+I created this website for my wedding from the ground up using Bootstrap. RSVP's are done via Google Forms, there's an interactive Leaflet map showing the venue, and I've linked it via Picasa so that there's a photo album.

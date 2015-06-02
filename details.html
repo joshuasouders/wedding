@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Event Details</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="style/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+
+    <!-- Custom styles for this template -->
+    <link href="style/style.css" rel="stylesheet">
+
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body style="background-color:#6b8b10;background-image: url('img/weddingtree.png'); background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-position: left bottom;">
+
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">Josh & Kate's Wedding</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="details.html">Event Details</a></li>
+                <li><a href="rsvp.html">RSVP</a></li>
+                <li><a href="registry.html">Registry</a></li>
+                <li><a href="pictures.html">Pictures</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+	<div class="container" style="background-color:#FFFFFF;">
+    <div style=" margin-top:100px;;">
+    		<h1>Event Details</h1>
+        <p>Questions? Contact us at josh@joshandkatesouders.com or kate@joshandkatesouders.com.</p>
+        <p>The ceremony and reception will be held at <b>Patapsco State Park, Hollofield Area</b> (8020 Baltimore National Pike, Ellicott City, MD 21043) on <b>Saturday May 16th, 2015</b>. The ceremony will begin at <b>noon</b> and the reception will conclude at <b>5:00 PM</b>. Tell the gate attendant that you are here for the wedding in <b>Shelter #300</b> in order to avoid having to pay to get into the park. After entering the park, drive straight past the gate attendant. The road will come to a Y; go right, and it is the first shelter on your right after the Y. There is parking right in front of the shelter, but if it is all taken there are more parking spaces if you keep driving past the shelter.</p>
+        <p>Click the markers for details about the marked points.</p>
+
+        <div id="parkMap"></div>
+        </div>
+    		<hr>
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>Josh + Kate Souders &nbsp<img src="favicon.ico">&nbsp Website by Josh Souders</p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
+    <script src="js/parkMap.js"></script>
+  </body>
+</html>
